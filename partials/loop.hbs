@@ -1,0 +1,23 @@
+{{#foreach posts}}
+<div class="col-xs-12">
+  <p class="text-center loop-title h5">
+    {{{title}}}
+  </p>
+  <p class="text-justify">
+    {{excerpt words="30"}}... 
+    <a href="{{url}}">
+      Read More &rarr;
+    </a>
+  </p>
+  <p>
+    <span class="loop-author">
+      {{#author}}{{name}}{{/author}}
+    </span>
+    |
+    <time datetime="{{date format='YYYY-MM-DD'}}">
+      {{date format="DD MMM YY"}}
+    </time>
+  </p>
+</div>
+{{/foreach}} 
+{{pagination}}

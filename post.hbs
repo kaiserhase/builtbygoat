@@ -1,0 +1,90 @@
+{{!< default}} 
+{{#post}} 
+<main class="row first blog-container" data-swiftype-name="body">
+  <header class="row blog-title text-uppercase" style="background-image: url({{image absolute="true"}});">
+    <div class="col-xs-12">
+      <p class="text-center text-uppercase blog-section">
+        <strong>
+          {{tags prefix="" separator=" & "}}
+        </strong>
+      </p>
+      <p class="text-center h1 blog-headline">
+        {{title}}
+      </p>
+    </div>
+  </header>
+  <div class="row text-justify blog">
+    {{content}}
+  </div>
+  <div class="row blog-byline">
+    {{#author}}
+    <div class="col-xs-12 col-md-8">
+      <p class="h4 text-center text-uppercase">
+        <strong><a href="{{url}}">{{name}}</a></strong>
+      </p>
+      <p class="text-center text-uppercase">
+        <em><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></em>
+      </p>
+      <p class="addthis_sharing_toolbox text-center">Like this Post? Share it!</p>
+      <p class="text-justify h6">
+        {{bio}}
+      </p>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <p class="center-block">
+        {{#if image}}
+        <img src="{{image}}" alt="{{name}}" class="img-responsive img-circle center-block" />
+        {{/if}}
+      </p>
+    </div>
+    {{/author}}
+  </div>
+</main>
+<div class="row blog-social">
+  <div class="blog-container">
+    <div class="col-xs-12 col-md-8" id="disqus_thread">
+      {{>disqus}}
+    </div>
+    <div class="col-xs-12 col-md-4">
+      {{>twitter}}
+    </div>
+  </div>
+</div>
+<div class="row blog-other blog-container">
+  <div class="col-xs-12 col-md-6">
+    {{#prev_post}}
+    <p class="text-left h5">
+      <strong>
+        Previous Post
+      </strong>
+    </p>
+    <p class="text-left h6">
+      <a href="{{url}}">
+        {{title}}
+      </a>
+    </p>
+    <p class="text-justify">
+      {{excerpt words="19"}}&hellip;
+    </p>
+    {{/prev_post}}
+  </div>
+  <div class="col-xs-12 col-md-6">
+    {{#next_post}}
+    <p class="text-right h5">
+      <strong>
+        Next Post
+      </strong>
+    </p>
+    <p class="text-right h6">
+      <a href="{{url}}">
+        {{title}}
+      </a>
+    </p>
+    <p class="text-justify">
+      {{excerpt words="19"}}&hellip;
+    </p>
+    {{/next_post}}
+  </div>
+</div>
+{{/post}}
+{{>share}}
