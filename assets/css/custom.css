@@ -199,6 +199,15 @@ a:hover {
   fill: #00ACE9;
 }
 
+.project-svg {
+  height: 4em !important;
+  width: 8em !important;
+}
+
+.iconic-header-fill {
+  fill: #D43F3F;
+}
+
 .iconic-property-accent {
   stroke: #D43F3F;
 }
@@ -368,6 +377,7 @@ a:hover {
 }
 
 .btn-secondary {
+  margin-top: 2em;
   padding: .5rem;
   border-radius: 0;
   background-color: #00ACE9;
@@ -503,6 +513,13 @@ a:hover {
 
 .nav-item {
   padding-left: 1em;
+}
+
+.social {
+  height: 45px;
+  width: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-small {
