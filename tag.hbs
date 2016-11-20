@@ -1,0 +1,15 @@
+{{!< default}}
+      <div class="row first-row">
+        <div class="large-12 category-column columns">
+          {{> categories}}
+        </div>
+      </div>
+     <div class="row title-row">
+      {{#tag}}
+          <h2 class="align-center">{{name}}</h2>
+          <p class="align-center">{{#if description}}{{description}}{{else}}A {{../pagination.total}}-post collection{{/if}}</p>
+          {{/tag}}
+    </div>
+    <div class="row loop-row">
+      {{> "loop"}}
+    </div>

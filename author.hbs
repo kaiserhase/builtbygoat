@@ -1,0 +1,15 @@
+{{!< default}}
+      <div class="row first-row">
+        <div class="large-12 category-column columns">
+          {{> categories}}
+        </div>
+      </div>
+      <div class="row title-row">
+          {{#author}}
+          <h2 class="align-center">{{name}}</h2>
+          {{#if bio}}<p class="align-center">{{bio}}</p>{{/if}}
+          {{/author}}
+        </div>
+   <div class="row loop-row">
+      {{> "loop"}}
+    </div>

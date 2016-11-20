@@ -1,0 +1,22 @@
+{{!< default}}
+    {{#post}}
+    <div class="first">
+        <div class="large-12 category-column columns">
+          {{> categories}}
+        </div>
+      </div>
+    <div class="row loop-row">
+      <div class="large-12 columns post-padding">
+        <div class="post-banner article-banner post-background" style="{{#if image}} background: url({{image}}) center center no-repeat fixed; {{else}}background-color:#212121;{{/if}}">
+          <h4 class="article-title align-center">{{title}}</h4>
+        </div>
+        <div class="article-byline">
+          <p>{{author}} &rarr; <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
+        </div>
+        <div class="article-detail">
+          <div class="post-margin">{{content}}</div>
+        </div>
+      </div>
+    </div>
+    {{/post}}
+
