@@ -7,7 +7,8 @@
       <div class="row title-row">
           {{#author}}
           <h2 class="align-center">{{name}}</h2>
-          {{#if bio}}<p class="align-center">{{bio}}</p>{{/if}}
+          {{#if bio}}<h6 class="align-justify">{{bio}}</h6>{{/if}}
+          {{#if website}}<p class="align-right">You can read my full biography <a href="{{website}}">here</a>.</p>{{/if}}
           {{/author}}
         </div>
    <div class="row loop-row">
