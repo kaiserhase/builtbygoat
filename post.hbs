@@ -1,5 +1,6 @@
 {{!< default}}
-    {{#post}}
+    {{#post}}    
+   <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
    <div class="row first">
     <div class="large-12 columns post-padding">
       <div class="article-banner post-background" style="{{#if image}} background: url({{image}}) center center no-repeat fixed; -webkit-background-size: 100%;-moz-background-size: 100%;-o-background-size: 100%;background-size: 100%; {{else}}background-color:#212121;{{/if}}"></div>
@@ -21,7 +22,8 @@
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
             resizable
-            src="https://www.builtbygoat.com/amp.html?shortname=builtbygoat&fontBodyFamily=sans-serif&fontLinkColor=03A9F4&url={{url absolute="true"}}&identifier=ghost-{{id}}">
+            src="https://cdn.rawgit.com/kaiserhase/builtbygoat/30531094/amp.html?shortname=builtbygoat&fontBodyFamily=sans-serif&fontLinkColor=03A9F4&url={{url absolute="true"}}&identifier=ghost-{{id}}">
+            <div overflow tabindex=0 role=button aria-label="Disqus Comments">Disqus Comments</div>
            </amp-iframe>
          </div>
       </div>
