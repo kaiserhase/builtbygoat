@@ -3,7 +3,9 @@
    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
    <div class="row first">
     <div class="large-12 columns post-padding">
-      <div class="article-banner post-background" style="{{#if image}} background: url({{image}}) center center no-repeat fixed; -webkit-background-size: 100%;-moz-background-size: 100%;-o-background-size: 100%;background-size: 100%; {{else}}background-color:#212121;{{/if}}"></div>
+      <div class="article-banner">
+        <p>{{#if image}}<amp-img src="{{image}}" height="192px" width="1000px"></amp-img>{{else}}<amp-img src="https://www.builtbygoat.com/images/postdefault.jpg" height="192px" width="1000px"> </amp-img>{{/if}}</p>
+      </div>
       <div class="article-detail">
         <h1 class="align-center">{{title}}</h1>
         <p>{{content}}</p>
