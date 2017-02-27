@@ -1,9 +1,11 @@
   {{#foreach posts}}
     <div class="large-12 columns post-padding">
-      <div class="article-banner post-background" style="{{#if image}} background: url({{image}}) center center no-repeat fixed; -webkit-background-size: 100%;-moz-background-size: 100%;-o-background-size: contain;background-size: 100%; {{else}}background-color:#212121;{{/if}}"></div>
+      <div class="article-banner">
+        <p>{{#if image}}<amp-img src="{{image}}" height="192px" width="1000px"></amp-img>{{else}}<amp-img src="https://www.builtbygoat.com/images/postdefault.jpg" height="192px" width="1000px"> </amp-img>{{/if}}</p>
+      </div>
       <div class="article-detail">
         <h1 class="align-center"><a href="{{url}}">{{title}}</a></h1>
-        <p>{{excerpt words="75"}}...</p>
+        <p>{{excerpt words="75"}}... <strong><a href="{{url}}">&rarr;READ MORE</a></strong></p>
       </div>
       <div class="article-byline">
         <div class="columns small-6 align-left">
@@ -11,7 +13,7 @@
           <p class="loop-by-2">Follow Me: <a href="http://www.twitter.com/kaiserhase/" target="_blank"><amp-img src="https://www.builtbygoat.com/images/tw.png" height="24" width="24" alt="Twitter"></amp-img></a> <a href="http://www.linkedin.com/in/mahoneybm/" target="_blank"><amp-img src="https://www.builtbygoat.com/images/in.png" height="24" width="24" alt="LinkedIn"></amp-img></a></p>
         </div>
         <div class="columns small-6 align-right">
-          <p class="loop-by-3"><strong><a href="{{url}}">&rarr;READ MORE</a></strong></p>
+          <p class="loop-by-3"><strong><a data-disqus-identifier="ghost-{{id}}" href="{{url}}#disqus_thread">Comments</a></strong></p>
           <p class="loop-by-4"><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
         </div>
       </div>
