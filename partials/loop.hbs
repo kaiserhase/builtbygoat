@@ -10,12 +10,21 @@
       <div class="article-byline">
         <div class="columns small-6 align-left">
           <p class="loop-by-1"><strong>{{author}}</strong></p>
-          <p class="loop-by-2">Follow Me: <a href="http://www.twitter.com/kaiserhase/" target="_blank"><amp-img src="https://www.builtbygoat.com/images/tw.png" height="24" width="24" alt="Twitter"></amp-img></a> <a href="http://www.linkedin.com/in/mahoneybm/" target="_blank"><amp-img src="https://www.builtbygoat.com/images/in.png" height="24" width="24" alt="LinkedIn"></amp-img></a></p>
+          <p class="loop-by-2">Share On: <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}" target="_blank"><amp-img src="https://www.builtbygoat.com/images/tw.png" height="24" width="24" alt="Twitter"></amp-img></a> <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank"><amp-img src="https://www.builtbygoat.com/images/fb.png" height="24" width="24" alt="Facebook"></amp-img></a> <a href="http://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}" target="_blank"><amp-img src="https://www.builtbygoat.com/images/in.png" height="24" width="24" alt="LinkedIn"></amp-img></a></p>
         </div>
         <div class="columns small-6 align-right">
-          <p class="loop-by-3"><strong><a href="{{url}}#disqus_thread">Read the Comments</a></strong></p>
+          <p class="loop-by-3"><strong><a href="{{url}}#disqus_thread">Comments</a></strong></p>
           <p class="loop-by-4"><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></p>
         </div>
+      </div>
+    </div>
+     <div class="large-12 columns post-padding">
+      <div class="article-banner">
+        <p><amp-ad layout="responsive" width=1000 height=192 
+        type="adsense" 
+        data-ad-client="ca-pub-1003928121460359" 
+        data-ad-slot="2147941420">
+        </amp-ad></p>
       </div>
     </div>
   {{/foreach}}
