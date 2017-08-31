@@ -1,0 +1,16 @@
+{{!< default}}
+    <div class="row">
+      <div class="small-12 columns vcard" itemscope itemtype="http://schema.org/Person" id="hcard-brett">
+       <h1 class="align-center"><amp-img src="https://www.builtbygoat.com/images/brett.jpg" itemprop="image" height="320" width="320" class="img-circle" alt="Brett Mahoney Portrait"></amp-img></h1>
+        <h3 class="index-author fn n"><span itemprop="name" class="given-name">Brett Mahoney</span></h3>
+        <h4 class="index-author"><span itemprop="jobTitle">Technical Support Specialist</span></h4>
+        <p class="index-author adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality" class="locality">Boston</span>, <span itemprop="addressRegion" class="region">Massachusetts</span></p>
+        </div>
+     </div>
+  
+      <div class="row">
+      {{> "loop"}}
+      <div>
+        <p class="align-center"><a href="{{@blog.url}}/rss/" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></amp-img></a></p>
+      </div>
+    </div>

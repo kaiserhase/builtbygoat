@@ -1,0 +1,16 @@
+{{!< default}}
+     <div class="row">
+      {{#tag}}
+      <div class="small-12 columns">
+          <h2 class="align-center">{{name}}</h2>
+          <p class="align-center">{{#if description}}{{description}}{{else}}{{../pagination.total}} similar posts{{/if}}</p>
+          </div>
+          {{/tag}}
+    </div>
+    <div class="row">
+      {{> "loop"}}
+    <div>
+        <p class="align-center"><a href="{{@blog.url}}/tag/{{#tag}}{{name}}{{/tag}}/rss/" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></amp-img></a></p>
+      </div>
+      </div>
+    

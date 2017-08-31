@@ -1,0 +1,14 @@
+{{!< default}}
+
+      <div class="row">
+        <div class="small-12 columns">
+          {{#author}}
+          <h2 class="align-center">{{name}}</h2>
+          {{#if bio}}<p>{{bio}}</p> <p><em>Follow Me: <a href="http://www.twitter.com/kaiserhase/" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/tw.png" height="32" width="32" alt="Twitter Feed"></amp-img></a> <a href="http://www.linkedin.com/in/mahoneybm/" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/in.png" height="32" width="32" alt="LinkedIn Profile"></amp-img></a></em></p>{{/if}}
+          {{#if website}}<p class="align-right">You can read my full biography on my <a href="{{website}}">resume page</a>.</p>{{/if}}
+          {{/author}}
+        </div>
+      </div>
+   <div class="row">
+      {{> "loop"}}
+    </div>

@@ -1,0 +1,11 @@
+<script>
+if ('serviceWorker' in navigator) {
+    // register the Service Worker, must be in the root directory to have site-wide scope...
+    navigator.serviceWorker.register('https://www.builtbygoat.com/sw.js')
+        .then(function() {
+            console.log('ServiceWorker registration succeeded');
+        }).catch(function(err) {
+            console.log('ServiceWorker registration failed: ', err);
+        });
+}
+</script>
