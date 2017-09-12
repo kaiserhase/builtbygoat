@@ -1,4 +1,4 @@
-
++
 'use strict';
 
 // Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
@@ -30,7 +30,7 @@
                     '/style.css',
                     '/amp.js',
                     '/amp.html',
-                    'sw.js',
+                    '/sw.js',
                     '/author/brett/',
                     '/images/umass.png',
                     '/images/ublock.jpg',
