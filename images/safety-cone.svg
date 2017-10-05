@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<g>
-	<path fill="#0077c4" d="M97.017,82.01v-4.62h-0.002l0.002-0.018c-0.01-1.335-1.092-2.407-2.42-2.417v-0.003h-7.512L54.048,17.732
-		l-0.013,0.008c-0.732-1.503-2.26-2.547-4.044-2.547c-1.832,0-3.401,1.096-4.108,2.665L12.92,74.951H5.386
-		c-1.347,0-2.44,1.091-2.44,2.438v4.863h0.012c-0.002,0.039-0.012,0.075-0.012,0.114c0,1.347,1.092,2.439,2.44,2.439h89.21v-0.004
-		c0.013,0,0.024,0.004,0.037,0.003c1.346-0.01,2.43-1.111,2.42-2.458C97.053,82.232,97.033,82.122,97.017,82.01z M47.513,25.159
-		h4.977l5.748,9.957H41.765L47.513,25.159z M36.017,45.072h27.971l5.748,9.957H30.268L36.017,45.072z M18.766,74.951l5.748-9.957
-		H75.49l5.748,9.957H18.766z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-screwdriver" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Screwdriver</title>
+  </g>
+  <g class="iconic-screwdriver-lg iconic-container iconic-lg" data-width="128" data-height="128" display="inline">
+    <path fill="#0077c4" class="iconic-screwdriver-head iconic-property-fill" d="M107.856 16.115l-57.462 57.462 4.029 4.029 57.462-57.462 8.058-2.029 8.058-14.087-4.029-4.029-14.087 8.058z" />
+    <path fill="#0077c4" d="M19.983 123.983l36.017-35.983v-4l2-2h2l2-2-14-14-2 2v2l-2 2h-4l-35.983 36.017c-2.455 2.079-4.017 5.18-4.017 8.648 0 6.26 5.075 11.335 11.335 11.335 3.469 0 6.569-1.562 8.648-4.017zm-13.69-12.276c-.195-.195-.293-.451-.293-.707s.098-.512.293-.707l34-34c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414l-34 34c-.391.391-1.023.391-1.414 0zm4 6c-.195-.195-.293-.451-.293-.707s.098-.512.293-.707l34-34c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414l-34 34c-.391.391-1.023.391-1.414 0zm6 4c-.195-.195-.293-.451-.293-.707s.098-.512.293-.707l34-34c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414l-34 34c-.391.391-1.023.391-1.414 0z"
+    class="iconic-screwdriver-handle iconic-property-fill" />
+  </g>
+  <g class="iconic-screwdriver-md iconic-container iconic-md" data-width="32" data-height="32" display="none" transform="scale(4)">
+    <path fill="#0077c4" class="iconic-screwdriver-head iconic-property-fill" d="M27 4l-16 16 1 1 16-16 2-1 2-3-1-1-3 2z" />
+    <path fill="#0077c4" d="M4.989 31l9.011-9v-1l1-1-3-3-1 1h-1l-8.989 9.011c-.613.52-1.011 1.287-1.011 2.154 0 1.566 1.269 2.835 2.835 2.835.867 0 1.634-.387 2.154-1z" class="iconic-screwdriver-handle iconic-property-fill" />
+  </g>
+  <g class="iconic-screwdriver-sm iconic-container iconic-sm" data-width="15" data-height="16" display="none" transform="scale(8)">
+    <path fill="#0077c4" class="iconic-screwdriver-head iconic-property-fill" d="M10.9 4l-6 6 1 1 6-6h2l2-4-1-1-4 2z" />
+    <path d="M5 8.1l-4.414 4.486c-.781.781-.781 2.047 0 2.828.781.781 2.047.781 2.828 0l4.486-4.414.1-1-2-2-1 .1z" class="iconic-screwdriver-handle iconic-property-fill" />
+  </g>
 </svg>
