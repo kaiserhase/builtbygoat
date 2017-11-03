@@ -1,16 +1,23 @@
 {{!< default}}
-    <div class="row row-contact">
-      <div class="small-12 columns vcard" itemscope itemtype="http://schema.org/Person" id="hcard-brett">
-       <h1 class="align-center"><amp-img src="https://www.builtbygoat.com/images/brett.jpg" itemprop="image" height="320" width="320" class="img-circle brett" alt="Brett Mahoney Portrait"></amp-img></h1>
-        <h2 class="index-author fn n"><span itemprop="name" class="given-name">Brett Mahoney</span></h2>
-        <h3 class="index-author"><span itemprop="jobTitle">Technical Support Specialist</span></h3>
-        <p class="index-author adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality" class="locality">Boston</span>, <span itemprop="addressRegion" class="region">Massachusetts</span></p>
-        </div>
-     </div>
+   <span class="small-12 columns vcard" itemscope itemtype="http://schema.org/Person" id="hcard-brett">
+     
+     <div class="row row-narrow">
+       <div class="small-12 large-4 columns">
+         <p class="align-center"><amp-img src="https://www.builtbygoat.com/images/brett.jpg" layout="responsive" itemprop="image" height="200" width="200" class="img-circle brett" alt="Brett Mahoney Portrait"></amp-img></p>
+       </div>
+       <div class="small-12 large-8 columns">
+         <h1 class="index-author fn n"><span itemprop="name" class="given-name">I'm <strong>Brett Mahoney</strong></span></h1>
+         <h2 class="index-author"><span itemprop="jobTitle">Technical Support Specialist</span></h2>
+         <hr>
+         <p class="index-author adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality" class="locality">Boston</span>, <span itemprop="addressRegion" class="region">Massachusetts</span></p>
+       </div> 
+       </div>
+
+  </span>
   
       <div class="row">
       {{> "loop"}}
       <div>
-        <p class="align-center"><a href="{{@blog.url}}/rss/" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></amp-img></a></p>
+        <p class="align-center"><a href="{{@blog.url}}/rss/" target="_blank" rel="noopener"><span class="hide">RSS Feed</span><amp-img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></amp-img></a></p>
       </div>
     </div>

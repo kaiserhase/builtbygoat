@@ -77,6 +77,11 @@
                     '/images/fairoaks.png',
                     '/images/codecademy.svg',
                     '/images/safety-cone.svg',
+                    '/fonts/raleway.eot',
+                    '/fonts/raleway.ttf',
+                    '/fonts/raleway.woff',
+                    '/fonts/raleway.woff2',
+                    '/fonts/raleway.svg',
                     //'/offline.html'
                 ]);
             });
