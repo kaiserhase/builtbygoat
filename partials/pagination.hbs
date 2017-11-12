@@ -1,14 +1,16 @@
-<div class="pagination-row">
-  <div class="large-12 columns">
-    <div class="align-center">
-      {{#if prev}}
-        <a href="{{page_url prev}}"><span aria-hidden="true">&larr;</span> NEWER POSTS</a> 
-      {{/if}}
-    </div>
-    <div class="align-center">
-      {{#if next}}
-        <a href="{{page_url next}}">OLDER POSTS <span aria-hidden="true">&rarr;</span></a>
-      {{/if}}
-    </nav>
-  </div>
-</div>
+
+            <div class="row-page">
+              <div class="small-3 columns">        
+                {{#if prev}}<p class="pagination-next"><a href="{{page_url prev}}">&larr; NEWER POSTS</a></p>
+                {{else}}<p class="pagination-next">&larr; NEWER POSTS</p>
+                {{/if}}           
+              </div>
+              <div class="small-6 columns">
+                <p class="align-center">PAGE {{page}} OF {{pages}}</p>
+              </div>
+              <div class="small-3 columns">       
+                {{#if next}}<p class="pagination-prev"><a href="{{page_url next}}">OLDER POSTS &rarr;</a></p>
+                {{else}}<p class="pagination-prev">OLDER POSTS &rarr;</p>
+                {{/if}}
+              </div>
+          </div>

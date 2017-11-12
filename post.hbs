@@ -6,11 +6,13 @@
       <div class="article-title">
         <p class="post-unify2"><span class="date"><amp-img src="https://www.builtbygoat.com/images/date.svg" height="16" width="16" alt="Date Posted"></amp-img> Date</span> <strong><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></strong></p>
            <p class="article-banner {{#if feature_image}}banner-height{{/if}}">{{#if feature_image}}<amp-img src="{{img_url feature_image}}" height="645px" width="968px" layout="responsive" alt="Article Header"></amp-img>{{/if}}</p>
-     <h1>{{title}}</h1>
+     <h1 class="art-title">{{title}}</h1>
         <p class="post-unify"><span class="author"><amp-img src="https://www.builtbygoat.com/images/author.svg" height="16" width="16" alt="Posted By"></amp-img> Author</span> <strong>{{author}}</strong></p>
+				
+        <p class="post-unify"><span class="author"><amp-img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"></amp-img> Reading Time</span> <strong>{{reading_time}}</strong></p>
       </div>
       <div class="article-detail">
-        <div class="post-unify">{{content}}</div>
+        <div class="post-unify post-content">{{content}}</div>
       </div>
       <div class="article-byline">
         <div>
