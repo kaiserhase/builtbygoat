@@ -1,12 +1,12 @@
 {
-  "name": "builtby+goat",
-  "short_name": "bb+g",
+  "name": "builtbygoat",
+  "short_name": "bbg",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#212121",
-  "theme_color": "#0077c4",
+  "background_color": "#090707",
+  "theme_color": "#0061c4",
   "orientation": "portrait",
-  "description": "BuiltBy+Goat is a showcase of my knowledge and experience. I strive to show tidbits of useful knowledge to help you everyday.",
+  "description": "Im Brett Mahoney. builtbygoat is a showcase of my knowledge and experience. I am a certified Windows technical support specialist.",
   "icons": [
   {
    "src": "/images/logo-favicon192.png",

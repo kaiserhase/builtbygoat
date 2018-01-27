@@ -2994,10 +2994,6 @@ body {
     -webkit-font-smoothing: antialiased
 }
 
-ul {
-    padding-left: 0
-}
-
 h1 {
   font-size:3.375em;
 }
@@ -3532,8 +3528,12 @@ body>footer>div>div:nth-child(1)>p.hire>a:hover {
     }
     .brett {
         margin: 0 auto;
+        width: 100%;
         max-height: 300px;
         max-width: 300px
+    }
+    .feat {
+        width: 100%;
     }
     .sup p {
         margin-top: 0;

@@ -2,12 +2,12 @@
    {{#foreach posts limit="{{@config.posts_per_page}}"}}
   <div class="small-12 large-6 columns loop">
       <div class="article-title">
-        <p class="article-banner {{#if feature_image}}banner-height{{/if}}">{{#if feature_image}}<img src="{{feature_image}}" height="645px" width="968px" layout="responsive" alt="Article Header"></img>{{/if}}</p>
+        <p class="article-banner {{#if feature_image}}banner-height{{/if}}">{{#if feature_image}}<img src="{{feature_image}}" height="645" width="968" alt="Decorative Article Header Image">{{/if}}</p>
        </div>
       <div class="article-detail looptitle">
         <h2 class="post-unify align-center"><a href="{{url}}">{{title}}</a></h2>
         <p class="post-unify post-content">{{excerpt}}</p>
-        <p class="post-unify2"><span class="author"><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"></img> Reading Time</span> <strong>{{reading_time}}</strong></p>
+        <p class="post-unify2"><span class="author"><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time</span> <strong>{{reading_time}}</strong></p>
       </div>
       
     </div>

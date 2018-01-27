@@ -7,9 +7,11 @@
 <meta name="description" content="{{meta_description}}" />
 <meta name="handheldfriendly" content="true" />
 {{#is "post"}}
-<link rel="amphtml" href="{{url absolute="true"}}amp/" itemprop="url" />
+<link rel="amphtml" href="{{url absolute="true"}}amp/" />
+<link itemprop="url" href="https://www.builtbygoat.com/" />
 {{else}}
-<link rel="canonical" href="https://www.builtbygoat.com/" itemprop="url" />
+<link rel="canonical" href="https://www.builtbygoat.com/" />
+<link itemprop="url" href="https://www.builtbygoat.com/" />
 {{/is}}
 <link rel="stylesheet" href="/style.css">
 <meta property="fb:pages" content="773145382793846" />
@@ -25,7 +27,8 @@
 <meta property="og:url" content="https://www.builtbygoat.com/" />
 <meta property="og:site_name" content="builtby+goat" />
 <meta property="og:type" content="blog" />
-<meta property="og:description" itemprop="description" content="{{meta_description}}" />
+<meta property="og:description" content="{{meta_description}}" />
+<meta itemprop="description" content="{{meta_description}}" />
 <meta property="og:image" content="/images/logo-favicon270.png" />
 <meta property="og:locale" content="en_US" />
 <meta name="robots" content="index, follow" />
@@ -93,7 +96,7 @@
           <p class="align-center cta"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTuXMEgg-IJcbv6TJIR76r0IAi3VHbfjIJTEda4gzfMgOt_Q/viewform" target="_blank" rel="noopener">Contact Me</a></p>
         </div>
       </div>
-      <span><a href="#top"><span class="hide">To Top</span><img src="/images/top.svg" height="32" width="32" class="top" alt="Back To Top"></img></a></span>
+      <div><a href="#top"><span class="hide">To Top</span><img src="/images/top.svg" height="32" width="32" class="top" alt="Back To Top"></a></div>
   <footer>
     <div class="row">
       <div class="small-12 large-4 columns">
@@ -113,7 +116,7 @@
       </div>
       <div class="small-12 large-4 columns">
          <p>&copy; {{date format="YYYY"}} <a href="{{@blog.url}}">Brett Mahoney</a></p>
-         <p>Follow Me: <a href="https://twitter.com/kaiserhase/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/twitter.svg" height="32" width="32" alt="Twitter Feed" class="social-top"></img></a> <a href="https://www.linkedin.com/in/mahoneybm/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/linkedin.svg" height="32" width="32" alt="LinkedIn Profile" class="social-top"></img></a></p>
+         <p>Follow Me: <a href="https://twitter.com/kaiserhase/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/twitter.svg" height="32" width="32" alt="Twitter Feed" class="social-top"></a> <a href="https://www.linkedin.com/in/mahoneybm/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/linkedin.svg" height="32" width="32" alt="LinkedIn Profile" class="social-top"></a></p>
       </div>
     </div>
   </footer>
