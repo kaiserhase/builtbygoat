@@ -32,12 +32,12 @@
     </clipPath>
   </defs>
   <g data-width="128" data-height="76" class="iconic-container iconic-lg" display="inline" transform="translate(0 26)">
-    <path clip-path="url(#iconic-size-lg-laptop-clip-0)" stroke="#0077c4" stroke-width="4" stroke-miterlimit="10" d="M116.5 70h-105c-.8 0-1.5-.7-1.5-1.5v-65c0-.8.7-1.5 1.5-1.5h105c.8 0 1.5.7 1.5 1.5v65c0 .8-.7 1.5-1.5 1.5z" class="iconic-laptop-screen-border iconic-property-stroke" fill="none"/>
-    <path fill="#0077c4"  clip-path="url(#iconic-size-lg-laptop-clip-1)" d="M126.5 76h-125c-.8 0-1.5-.7-1.5-1.5v-7c0-.8.7-1.5 1.5-1.5h125c.8 0 1.5.7 1.5 1.5v7c0 .8-.7 1.5-1.5 1.5z" class="iconic-laptop-base iconic-property-fill"/>
+    <path clip-path="url(#iconic-size-lg-laptop-clip-0)" stroke="#0061c4" stroke-width="4" stroke-miterlimit="10" d="M116.5 70h-105c-.8 0-1.5-.7-1.5-1.5v-65c0-.8.7-1.5 1.5-1.5h105c.8 0 1.5.7 1.5 1.5v65c0 .8-.7 1.5-1.5 1.5z" class="iconic-laptop-screen-border iconic-property-stroke" fill="none"/>
+    <path fill="#0061c4"  clip-path="url(#iconic-size-lg-laptop-clip-1)" d="M126.5 76h-125c-.8 0-1.5-.7-1.5-1.5v-7c0-.8.7-1.5 1.5-1.5h125c.8 0 1.5.7 1.5 1.5v7c0 .8-.7 1.5-1.5 1.5z" class="iconic-laptop-base iconic-property-fill"/>
     <image class="iconic-laptop-screenshot-image" data-max-width="104" x="12" y="4" clip-path="url(#iconic-size-lg-laptop-clip-2)"/>
   </g>
   <g data-width="32" data-height="19" class="iconic-container iconic-md" display="none" transform="scale(4) translate(0 6)">
-    <path clip-path="url(#iconic-size-md-laptop-clip-0)" stroke="#0077c4" stroke-width="2" stroke-miterlimit="10" d="M27.5 17h-23c-.3 0-.5-.2-.5-.5v-15c0-.3.2-.5.5-.5h23c.3 0 .5.2.5.5v15c0 .3-.2.5-.5.5z" class="iconic-laptop-screen-border iconic-property-stroke" fill="none"/>
+    <path clip-path="url(#iconic-size-md-laptop-clip-0)" stroke="#0061c4" stroke-width="2" stroke-miterlimit="10" d="M27.5 17h-23c-.3 0-.5-.2-.5-.5v-15c0-.3.2-.5.5-.5h23c.3 0 .5.2.5.5v15c0 .3-.2.5-.5.5z" class="iconic-laptop-screen-border iconic-property-stroke" fill="none"/>
     <path clip-path="url(#iconic-size-md-laptop-clip-1)" d="M31.5 19h-31c-.3 0-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5h31c.3 0 .5.2.5.5v3c0 .3-.2.5-.5.5z" class="iconic-laptop-base iconic-property-fill"/>
     <image class="iconic-laptop-screenshot-image" data-max-width="22" x="5" y="2" clip-path="url(#iconic-size-md-laptop-clip-2)"/>
   </g>

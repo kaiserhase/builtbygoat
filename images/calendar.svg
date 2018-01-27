@@ -24,7 +24,7 @@
       <path d="M0 0h15v3h-15z" />
     </clipPath>
   </defs>
-  <g class="iconic-calendar-lg iconic-container iconic-lg" data-width="126" fill="#0077c4"  data-height="120" display="inline" transform="translate(1 4)">
+  <g class="iconic-calendar-lg iconic-container iconic-lg" data-width="126" fill="#0061c4"  data-height="120" display="inline" transform="translate(1 4)">
     <path d="M0 117v-114c0-1.657 1.343-3 3-3h120c1.657 0 3 1.343 3 3v114c0 1.657-1.343 3-3 3h-120c-1.657 0-3-1.343-3-3z" clip-path="url(#iconic-size-lg-calendar-clip-0)" class="iconic-calendar-body iconic-property-fill" />
     <path d="M0 118.5v-117c0-.828.672-1.5 1.5-1.5h123c.828 0 1.5.672 1.5 1.5v117c0 .828-.672 1.5-1.5 1.5h-123c-.828 0-1.5-.672-1.5-1.5z" clip-path="url(#iconic-size-lg-calendar-clip-1)" class="iconic-calendar-top iconic-property-accent iconic-property-fill"
     />

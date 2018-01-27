@@ -3,9 +3,9 @@
     <title>Book</title>
   </g>
   <g class="iconic-book-lg iconic-container iconic-lg" data-width="120" data-height="128" display="inline" transform="translate(4)">
-    <path fill="#0077c4" d="M6 112c-3.309 0-6 2.691-6 6v4c0 3.314 2.686 6 6 6h114v-3.995h-112c-2.209 0-4-1.791-4-4s1.791-4 4-4h2v-.005h110v-4h-114z" class="iconic-book-bottom iconic-property-fill" />
-    <path fill="#0077c4" d="M6 109.666v-109.666h-1v.09c-2.837.477-5 2.938-5 5.91 0 .216.013.429.035.639-.011.121-.035.237-.035.361v105.726c1.467-1.667 3.61-2.726 6-2.726h.067c-.038-.105-.067-.215-.067-.334z" class="iconic-book-spine iconic-property-fill" />
-    <path fill="#0077c4"  d="M119.983 2.828c-.091-1.575-1.384-2.828-2.982-2.828h-13v52l-6-6-6 6v-52h-84v109.666c0 .118-.03.228-.067.334h112.067v-107.155l-.017-.016z" class="iconic-book-cover iconic-property-fill" />
+    <path fill="#0061c4" d="M6 112c-3.309 0-6 2.691-6 6v4c0 3.314 2.686 6 6 6h114v-3.995h-112c-2.209 0-4-1.791-4-4s1.791-4 4-4h2v-.005h110v-4h-114z" class="iconic-book-bottom iconic-property-fill" />
+    <path fill="#0061c4" d="M6 109.666v-109.666h-1v.09c-2.837.477-5 2.938-5 5.91 0 .216.013.429.035.639-.011.121-.035.237-.035.361v105.726c1.467-1.667 3.61-2.726 6-2.726h.067c-.038-.105-.067-.215-.067-.334z" class="iconic-book-spine iconic-property-fill" />
+    <path fill="#0061c4"  d="M119.983 2.828c-.091-1.575-1.384-2.828-2.982-2.828h-13v52l-6-6-6 6v-52h-84v109.666c0 .118-.03.228-.067.334h112.067v-107.155l-.017-.016z" class="iconic-book-cover iconic-property-fill" />
   </g>
   <g class="iconic-book-md iconic-container iconic-md" data-width="30" data-height="32" display="none" transform="scale(4) translate(1)">
     <path d="M3.5 30c-.829 0-1.5-.671-1.5-1.5s.671-1.5 1.5-1.5h26.5v-2h-27.75c-1.241 0-2.25 1.009-2.25 2.25v2.25c0 1.381 1.119 2.5 2.5 2.5h27.5v-2h-26.5z" class="iconic-book-bottom iconic-property-fill" />

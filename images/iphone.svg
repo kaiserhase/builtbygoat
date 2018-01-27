@@ -23,7 +23,7 @@
     </clipPath>
   </defs>
   <g data-width="62" data-height="128" class="iconic-container iconic-lg" display="inline" transform="translate(33)">
-    <path fill="#0077c4" clip-path="url(#iconic-size-lg-iphone-clip-0)" d="M53 0h-44c-5 0-9 4-9 9v110c0 5 4 9 9 9h44c5 0 9-4 9-9v-110c0-5-4-9-9-9z" class="iconic-iphone-body iconic-property-fill"/>
+    <path fill="#0061c4" clip-path="url(#iconic-size-lg-iphone-clip-0)" d="M53 0h-44c-5 0-9 4-9 9v110c0 5 4 9 9 9h44c5 0 9-4 9-9v-110c0-5-4-9-9-9z" class="iconic-iphone-body iconic-property-fill"/>
     <image class="iconic-iphone-screenshot-image" data-max-width="54" x="4" y="16" clip-path="url(#iconic-size-lg-iphone-clip-1)"/>
   </g>
   <g data-width="15" data-height="32" class="iconic-container iconic-md" display="none" transform="scale(4) translate(8)">

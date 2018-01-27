@@ -13,9 +13,9 @@
       <path d="M8 0h-8v16h13v-11h-5v-5zm-6 4h4v1h-4v-1zm0 6h7v1h-7v-1zm9 4h-9v-1h9v1zm0-7v1h-9v-1h9z" />
     </clipPath>
   </defs>
-  <g class="iconic-document-lg iconic-container iconic-lg" data-width="98" fill="#0077c4" data-height="128" display="inline" transform="translate(15)">
+  <g class="iconic-document-lg iconic-container iconic-lg" data-width="98" fill="#0061c4" data-height="128" display="inline" transform="translate(15)">
     <path clip-path="url(#iconic-size-lg-document-clip-0)" d="M96.5 128h-95c-.828 0-1.5-.672-1.5-1.5v-125c0-.828.672-1.5 1.5-1.5h95c.828 0 1.5.672 1.5 1.5v125c0 .828-.672 1.5-1.5 1.5z" class="iconic-document-page iconic-property-fill" />
-    <path fill="#0077c4" class="iconic-document-flap iconic-property-fill" d="M98 24l-24-24v24z" />
+    <path fill="#0061c4" class="iconic-document-flap iconic-property-fill" d="M98 24l-24-24v24z" />
   </g>
   <g class="iconic-document-md iconic-container iconic-md" data-width="25" data-height="32" display="none" transform="scale(4) translate(3)">
     <path clip-path="url(#iconic-size-md-document-clip-0)" d="M24.5 32h-24c-.276 0-.5-.224-.5-.5v-31c0-.276.224-.5.5-.5h24c.276 0 .5.224.5.5v31c0 .276-.224.5-.5.5z" class="iconic-document-page iconic-property-fill" />

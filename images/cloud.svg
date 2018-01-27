@@ -3,7 +3,7 @@
     <title>Cloud</title>
   </g>
   <g class="iconic-cloud-lg iconic-container iconic-lg" data-width="128" data-height="86" display="inline" transform="translate(0 21)">
-    <path fill="#0077c4" d="M108 50c-.871-8.409-7.602-15.091-16-16-.986-18.976-16.783-34-36-34-18.8 0-34.415 14.604-36 33-11.578 3.042-20 13.481-20 26 0 14.552 11.575 26.471 26 27h84c9.925 0 18-8.075 18-18s-7-18-20-18z" class="iconic-cloud-cloud iconic-property-fill"
+    <path fill="#0061c4" d="M108 50c-.871-8.409-7.602-15.091-16-16-.986-18.976-16.783-34-36-34-18.8 0-34.415 14.604-36 33-11.578 3.042-20 13.481-20 26 0 14.552 11.575 26.471 26 27h84c9.925 0 18-8.075 18-18s-7-18-20-18z" class="iconic-cloud-cloud iconic-property-fill"
     />
   </g>
   <g class="iconic-cloud-md iconic-container iconic-md" data-width="32" data-height="22" display="none" transform="scale(4) translate(0 5)">

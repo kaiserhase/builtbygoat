@@ -1,7 +1,7 @@
 {
   "name": "builtby+goat",
   "short_name": "bb+g",
-  "start_url": "https://www.builtbygoat.com",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#212121",
   "theme_color": "#0077c4",

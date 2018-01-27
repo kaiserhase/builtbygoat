@@ -2,8 +2,8 @@
   <g><title>Envelope</title></g>
   <g data-width="128" data-height="84" class="iconic-lg iconic-container" display="inline" transform="translate(0 22)">
     <g class="iconic-envelope-closed">
-      <path fill="#0077c4" d="M65.3 43.3l61.3-30.7c.7-.4 1.3-1.3 1.3-2.2v-9c0-.8-.7-1.5-1.5-1.5h-124.9c-.8.1-1.5.8-1.5 1.6v9c0 .8.6 1.8 1.3 2.2l61.3 30.7c.8.3 2 .3 2.7-.1z" class="iconic-envelope-closed-envelope-flap iconic-property-accent iconic-property-fill"/>
-      <path fill="#0077c4" d="M62.7 51.3l-61.4-30.6c-.7-.4-1.3 0-1.3.8v61c0 .8.7 1.5 1.5 1.5h125c.8 0 1.5-.7 1.5-1.5v-61c0-.8-.6-1.2-1.3-.8l-61.4 30.6c-.7.4-1.9.4-2.6 0z" class="iconic-envelope-closed-envelope-body iconic-property-fill"/>
+      <path fill="#0061c4" d="M65.3 43.3l61.3-30.7c.7-.4 1.3-1.3 1.3-2.2v-9c0-.8-.7-1.5-1.5-1.5h-124.9c-.8.1-1.5.8-1.5 1.6v9c0 .8.6 1.8 1.3 2.2l61.3 30.7c.8.3 2 .3 2.7-.1z" class="iconic-envelope-closed-envelope-flap iconic-property-accent iconic-property-fill"/>
+      <path fill="#0061c4" d="M62.7 51.3l-61.4-30.6c-.7-.4-1.3 0-1.3.8v61c0 .8.7 1.5 1.5 1.5h125c.8 0 1.5-.7 1.5-1.5v-61c0-.8-.6-1.2-1.3-.8l-61.4 30.6c-.7.4-1.9.4-2.6 0z" class="iconic-envelope-closed-envelope-body iconic-property-fill"/>
     </g>
   </g>
   <g data-width="128" data-height="116" class="iconic-lg iconic-container" display="inline" transform="translate(0 6)">
