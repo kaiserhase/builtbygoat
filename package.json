@@ -1,6 +1,6 @@
 {
   "name": "Goat",
-  "version": "5.1",
+  "version": "6.0",
   "config": {
     "posts_per_page": 10
   }
