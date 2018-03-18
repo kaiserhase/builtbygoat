@@ -1,125 +1,125 @@
-<!doctype html>
-<html lang="en" dir="ltr" prefix="op: http://media.facebook.com/op#">
-<head itemscope itemtype="http://schema.org/WebSite">
-<meta charset="utf-8">
-<meta name="author" content="Brett Mahoney">
-<meta property="op:markup_version" content="v1.0">
-<meta name="description" content="{{meta_description}}" />
-<meta name="handheldfriendly" content="true" />
-{{#is "post"}}
-<link rel="amphtml" href="{{url absolute="true"}}amp/" />
-<link itemprop="url" href="https://www.builtbygoat.com/" />
-{{else}}
-<link rel="canonical" href="https://www.builtbygoat.com/" />
-<link itemprop="url" href="https://www.builtbygoat.com/" />
-{{/is}}
-<link rel="stylesheet" href="/style.css">
-<meta property="fb:pages" content="773145382793846" />
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-<title itemprop='name'>{{meta_title}}</title>
-<meta name="google-site-verification" content="z-54bUTH4z5m0u9ExNnnQmgOgTWIVVwVA9zIXofoH8U" />
-<meta name="msvalidate.01" content="B619C91732C4C543921C2909F5BBD0CC" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@kaiserhase" />
-<meta name="twitter:title" content="{{meta_title}}" />
-<meta name="twitter:description" content="{{meta_description}}" />
-<meta property="og:title" content="{{meta_title}}" />
-<meta property="og:url" content="https://www.builtbygoat.com/" />
-<meta property="og:site_name" content="builtby+goat" />
-<meta property="og:type" content="blog" />
-<meta property="og:description" content="{{meta_description}}" />
-<meta itemprop="description" content="{{meta_description}}" />
-<meta property="og:image" content="/images/logo-favicon270.png" />
-<meta property="og:locale" content="en_US" />
-<meta name="robots" content="index, follow" />
-<meta name="apple-mobile-web-app-title" content="builtby+goat" />
-<meta name="application-name" content="builtby+goat" />
-<meta name="msapplication-config" content=“/images/browserconfig.xml” />
-<meta name="theme-color" content="#212121" />
-<link rel="apple-touch-icon" sizes="180x180" href="/images/logo-favicon180.png" />
-<link rel="manifest" href="/images/manifest.json" />
-<link rel="icon" type="image/png" href="/images/logo-favicon32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/images/logo-favicon16.png" sizes="16x16" />
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-<script>
-    (function(h,o,t,j,a,r){
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="op: http://media.facebook.com/op#" class="has-navbar-fixed-top">
+  <head itemscope itemtype="http://schema.org/WebSite">
+    <!-- Base Header -->
+    <title itemprop='name'>{{meta_title}}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <meta name="handheldfriendly" content="true" />
+    <link rel="stylesheet" href="/style.css">
+    <meta name="robots" content="index, follow" />
+    <!-- AMP or Not AMP -->
+    {{#is "post"}}
+      <link rel="amphtml" href="{{url absolute="true"}}amp/" />
+      <link itemprop="url" href="{{url absolute="true"}}" />
+    {{else}}
+      <link rel="canonical" href="{{url absolute="true"}}" />
+      <link itemprop="url" href="{{url absolute="true"}}" />
+    {{/is}} 
+    <!-- Basic SEO -->
+    <meta name="author" content="Brett Mahoney">
+    <meta property="op:markup_version" content="v1.0"> 
+    <meta property="fb:pages" content="773145382793846" />
+    <meta name="google-site-verification" content="z-54bUTH4z5m0u9ExNnnQmgOgTWIVVwVA9zIXofoH8U" />
+    <meta name="msvalidate.01" content="B619C91732C4C543921C2909F5BBD0CC" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaiserhase" />
+    <meta name="twitter:title" content="{{meta_title}}" />
+    <meta name="twitter:description" content="{{meta_description}}" />
+    <meta property="og:title" content="{{meta_title}}" />
+    <meta property="og:url" content="https://www.builtbygoat.com/" />
+    <meta property="og:site_name" content="builtby+goat" />
+    <meta property="og:type" content="blog" />
+    <meta property="og:description" content="{{meta_description}}" />
+    <meta itemprop="description" content="{{meta_description}}" />
+    <meta property="og:image" content="https://www.builtbygoat.com/images/logo-favicon270.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="apple-mobile-web-app-title" content="builtby+goat" />
+    <meta name="application-name" content="builtby+goat" />
+    <meta name="msapplication-config" content=“https://www.builtbygoat.com/images/browserconfig.xml” />
+    <meta name="theme-color" content="#090707" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.builtbygoat.com/images/logo-favicon180.png" />
+    <link rel="icon" type="image/png" href="https://www.builtbygoat.com/images/logo-favicon32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://www.builtbygoat.com/images/logo-favicon16.png" sizes="16x16" />
+    <link rel="icon" type="image/x-icon" href="https://www.builtbygoat.com/images/favicon.ico" />
+    <script type='application/ld+json'> 
+      {
+        "@context": "https://www.schema.org",
+        "@type": "person",
+        "name": "Brett Mahoney",
+        "jobTitle": "Tech Support Specialist",
+        "url": "https://www.builtbygoat.com",
+        "sameAs": [
+          "http://www.twtter.com/kaiserhasee",
+          "http://www.linkedin.com/in/mahoneybm"
+        ]
+      }
+    </script>
+    <script type='application/ld+json'>
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://www.builtbygoat.com",
+        "logo": "="https://www.builtbygoat.com/images/logo.png"
+      }
+    </script>
+    <!-- Analytics -->
+    <script>
+      (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:80897,hjsv:6};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<script type='application/ld+json'> 
-      {
-        "@context": "https://www.schema.org",
-        "@type": "person",
-        "name": "Brett Mahoney",
-        "jobTitle": "Tech Support, Tier I",
-        "url": "https://www.builtbygoat.com",
-        "sameAs": [
-    "http://www.twtter.com/kaiserhasee",
-    "http://www.linkedin.com/in/mahoneybm"
-  ]
-      }
-      </script>
-<script type='application/ld+json'>
-      {
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "url": "https://www.builtbygoat.com",
-  "logo": "/images/logo.png"
-}
-
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-</head>
-<body>
-<script type="application/json">
-{
-  "vars": {
-    "account": "UA-67402827-1"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    }
-  }
-}
-</script>
-{{navigation}}
-  {{{body}}}
- <div class="row row-contact">
-        <div class="small-12 columns">
-          <h2 class="align-center call">If The Shoe Fits... </h2>
-          <p class="align-center cta"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTuXMEgg-IJcbv6TJIR76r0IAi3VHbfjIJTEda4gzfMgOt_Q/viewform" target="_blank" rel="noopener">Contact Me</a></p>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67402827-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-67402827-1');
+    </script>
+  </head>
+  <body>
+
+    <!-- Body -->
+    {{navigation}}
+    {{{body}}}
+    <section class="section is-uppercase cta">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h2 class="has-text-centered">If The Shoe Fits... </h2>
+            <p class="has-text-centered"><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfTuXMEgg-IJcbv6TJIR76r0IAi3VHbfjIJTEda4gzfMgOt_Q/viewform" target="_blank" rel="noopener">Contact Me</a></p>
+          </div>
         </div>
       </div>
-      <div><a href="#top"><span class="hide">To Top</span><img src="/images/top.svg" height="32" width="32" class="top" alt="Back To Top"></a></div>
-  <footer>
-    <div class="row">
-      <div class="small-12 large-4 columns">
-            <p>NAVIGATION</p> 
+    </section>
+    <!-- Footer -->
+    <footer class="footer is-uppercase">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p>Navigation</p> 
             <p><a href="/support/">Get Support</a></p>
             <p><a href="/resume/">My Resume</a></p>
             <p><a href="/technical/">About Site</a></p>
             <p><a href="/sitemap/">Site Map</a></p>
+          </div>
+          <div class="column">
+            <p>Categories</p>
+            <p><a href="https://www.builtbygoat.com/tag/technology/">technology</a></p>
+            <p><a href="https://www.builtbygoat.com/tag/general/">general</a></p>
+          </div>
+          <div class="column">
+            <p>&copy; 2018 <a href="https://www.builtbygoat.com">Brett Mahoney</a></p>
+            <p><a href="https://twitter.com/kaiserhase/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/twitter.svg" height="32" width="32" alt="Twitter Feed" class="social-top"></a> <a href="https://www.linkedin.com/in/mahoneybm/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/linkedin.svg" height="32" width="32" alt="LinkedIn Profile" class="social-top"></a></p>
+          </div>
         </div>
-      <div class="small-12 large-4 columns">
-            <p>CATEGORIES</p>
-       {{#get "tags" limit="all"}}
-       {{#foreach tags}}
-            <p><a href="{{url absolute="true"}}">{{name}}</a></p>
-          {{/foreach}}
-          {{/get}}
       </div>
-      <div class="small-12 large-4 columns">
-         <p>&copy; {{date format="YYYY"}} <a href="{{@blog.url}}">Brett Mahoney</a></p>
-         <p>Follow Me: <a href="https://twitter.com/kaiserhase/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/twitter.svg" height="32" width="32" alt="Twitter Feed" class="social-top"></a> <a href="https://www.linkedin.com/in/mahoneybm/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/linkedin.svg" height="32" width="32" alt="LinkedIn Profile" class="social-top"></a></p>
-      </div>
-    </div>
-  </footer>
-  {{ghost_foot}}
+    </footer>
   </body>
 </html>

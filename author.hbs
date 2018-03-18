@@ -1,19 +1,25 @@
 {{!< default}}
-
-      <div class="row">
-        <div class="small-12 columns">
-          {{#author}}
+<!-- Author -->
+<section class="section hero">
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-centered is-uppercase">
+        {{#author}}
           <h1 class="align-center">{{name}}</h1>
           {{#if bio}}<p>{{bio}}</p>{{/if}}
-          {{/author}}
-        </div>
-      </div>
-   <div class="row">
-      {{> "loop"}}
-      
-    </div>
-            <div class="row">
-      <div class="small-12 columns">
-        <p class="align-center"><a href="{{@blog.url}}{{#author}}{{url}}{{/author}}rss/" target="_blank" rel="noopener"><span class="hide">RSS Feed</span><amp-img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></amp-img></a></p>
+        {{/author}}
       </div>
     </div>
+  </div>
+</section>
+{{> "loop"}}
+<!-- RSS -->
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <p class="has-text-centered"><a href="{{@blog.url}}{{#author}}{{url}}{{/author}}rss/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></a></p>
+      </div>
+    </div>
+  </div>
+</section>

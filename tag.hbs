@@ -1,19 +1,25 @@
 {{!< default}}
-     <div class="row">
-      {{#tag}}
-      <div class="small-12 columns">
-          <h1 class="align-center">{{name}}</h1>
-          <p class="align-center">{{#if description}}{{description}}{{else}}{{../pagination.total}} similar posts{{/if}}</p>
-          </div>
-          {{/tag}}
-    </div>
-    <div class="row">
-      {{> "loop"}}
-      
-    </div>
-    <div class="row">
-    <div class="small-12 columns">
-        <p class="align-center"><a href="{{@blog.url}}/tag/{{#tag}}{{name}}{{/tag}}/rss/" target="_blank" rel="noopener"><span class="hide">RSS Feed</span><img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></a></p>
+<!-- Tag -->
+{{#tag}}
+<section class="section hero">
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-centered is-uppercase">
+        <h1>{{name}}</h1>
+        <p>{{#if description}}{{description}}{{else}}{{../pagination.total}} similar posts{{/if}}</p>
       </div>
+    </div>
+  </div>
+</section>
+{{/tag}}
+{{> "loop"}}
+<!-- RSS -->
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <p class="has-text-centered"><a href="{{@blog.url}}/tag/{{#tag}}{{name}}{{/tag}}/rss/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></a></p>
       </div>
-    
+    </div>
+  </div>
+</section>

@@ -1,42 +1,62 @@
 {{!< default}}
-    {{#post}}    
-   <div class="row">
-    <div class="large-12 columns">
-      <div class="article-title">
-        <p class="post-unify2"><span class="date"><img src="https://www.builtbygoat.com/images/date.svg" height="16" width="16" alt="Date Posted"> Date</span> <strong><time class="op-published" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></strong></p>
-           <p class="article-banner {{#if feature_image}}banner-height{{/if}}">{{#if feature_image}}<img src="{{img_url feature_image}}" height="645" class="feat" alt="Decorative Article Header Image">{{/if}}</p>
-     <h1 class="art-title">{{title}}</h1>
-        <p class="post-unify"><span class="author"><img src="https://www.builtbygoat.com/images/author.svg" height="16" width="16" alt="Posted By"> Author</span> <strong>{{author}}</strong></p>
-				
-        <p class="post-unify"><span class="author"><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time</span> <strong>{{reading_time}}</strong></p>
+<!-- Post -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1003928121460359",
+    enable_page_level_ads: true
+  });
+</script>
+{{#post}}    
+<section class="section">
+  <div class="container">
+    <div class="columns article-banner">
+      <div class="column">
+        <p>{{#if feature_image}}<img src="{{feature_image}}" height="1333" width="2000" alt="Decorative Article Header Image">{{/if}}</p>
       </div>
-      <div class="article-detail">
-        <div class="post-unify post-content">{{content}}</div>
+    </div>
+    <div class="columns article-title">
+      <div class="column">
+        <h2 class="has-text-centered is-uppercase"><a href="{{url}}">{{title}}</a></h2>
       </div>
-      <div class="article-byline">
-        <div>
-            <p class="subpost post-unify"><span class="share"><img src="https://www.builtbygoat.com/images/share.svg" height="16" width="16" alt="Share This Post"> SHARE</span> <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}" target="_blank" rel="noopener"><span class="hide">Twitter</span><img src="https://www.builtbygoat.com/images/twitter.svg" height="24" width="24" alt="Share on Twitter"></a> <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" rel="noopener"><span class="hide">Facebook</span><img src="https://www.builtbygoat.com/images/facebook.svg" height="24" width="24" alt="Share on Facebook"></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}" target="_blank" rel="noopener"><span class="hide">LinkedIn</span><img src="https://www.builtbygoat.com/images/linkedin.svg" height="24" width="24" alt="Share on LinkedIn"></a></p>
-          <p class="subpost post-unify"><span class="tags"><img src="https://www.builtbygoat.com/images/tags.svg" height="16" width="16" alt="Posted Tagged Under"> TAGS</span> <strong>{{#if tags}}{{tags}}{{else}}Uncategorized{{/if}}</strong></p>
-       </div>
-        <div>
-          <div id="disqus_thread"></div>
-					<script>
-						var disqus_config = function () {
+    </div>
+    <div class="columns article-body">
+      <div class="column">
+		  	<p><img src="https://www.builtbygoat.com/images/author.svg" height="16" width="16" alt="Posted By"> Author <strong>{{author}}</strong></p>			
+        <p><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time <strong>{{reading_time}}</strong></p>
+      </div>
+    </div>
+		<div class="columns article-body">
+      <div class="column">
+		    <p>{{content}}</p>
+      </div>
+    </div>
+    <div class="columns article-footer">
+      <div class="column is-uppercase">
+        <p><img src="https://www.builtbygoat.com/images/share.svg" height="16" width="16" alt="Share This Post"> Share <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/twitter.svg" height="24" width="24" alt="Share on Twitter"></a> <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/facebook.svg" height="24" width="24" alt="Share on Facebook"></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/linkedin.svg" height="24" width="24" alt="Share on LinkedIn"></a></p>
+        <p><img src="https://www.builtbygoat.com/images/tags.svg" height="16" width="16" alt="Posted Tagged Under"> Tags <strong>{{#if tags}}{{tags}}{{else}}Uncategorized{{/if}}</strong></p>  
+			</div>
+    </div>
+		<div class="columns article-footer">
+      <div class="column is-uppercase">
+        <div id="disqus_thread"></div>
+			  <script>
+					var disqus_config = function () {
 						this.page.url = "{{url absolute='true'}}";
 						this.page.identifier = "ghost-{{comment_id}}";
-						};
-						(function() { 
+					};
+					(function() { 
 						var d = document, s = d.createElement('script');
 						s.src = 'https://builtbygoat.disqus.com/embed.js';
 						s.setAttribute('data-timestamp', +new Date());
 						(d.head || d.body).appendChild(s);
-						})();
-					</script>
-         </div>
-      </div>
+					})();
+				</script>
+			</div>
     </div>
   </div>
- <script type="application/ld+json">
+</section>
+<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
@@ -72,4 +92,4 @@
   "description": "{{meta_description}}"
 }
 </script>
-   {{/post}}
+{{/post}}

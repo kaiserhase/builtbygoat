@@ -1,63 +1,46 @@
 {{!< default}}
-      <div class="row" itemscope itemtype="http://schema.org/Article">
-        <div class="small-12 columns" itemprop="article">
-          <h1 itemprop="articleSection" class="align-center">Site Map</h1>
-          <p itemprop="articleBody" class="align-center">Trying to find your way around my website? Look no further!</p>
-        </div>
+<!-- Site Map -->
+<section class="section has-text-centered hero">
+  <div class="container" itemscope itemtype="http://schema.org/Article">
+    <div class="columns" itemprop="article">
+      <div class="column">
+        <h1 itemprop="articleSection">Site Map</h1>
+        <p itemprop="articleBody">Trying to find your way around my website? Look no further!</p>
       </div>
-  <div class="row">
-      <div class="small-12 columns">
-              <div class="small-12 columns">
-              <h2>NAVIGATION</h2> 
-              </div>
-              <div class="small-12 large-4 columns">
-              <p class="align-center"><img src="https://www.builtbygoat.com/images/iphone.svg" alt="Get Support Page Icon" width="64" height="64"></p>
-              <h3 class="align-center"><a href="https://www.builtbygoat.com/support/">Get Support</a></h3>
-
-            </div>
-            <div class="small-12 large-4 columns">
-            <p class="align-center"><img src="https://www.builtbygoat.com/images/book.svg" alt="My Resume Page Icon" width="64" height="64"></p>
-              <h3 class="align-center"><a href="https://www.builtbygoat.com/resume/">My Resume</a></h3>
-
-           </div>
-           <div class="small-12 large-4 columns">
-           <p class="align-center"><img src="https://www.builtbygoat.com/images/tools.svg" alt="About Site Page Icon" width="64" height="64"></p>
-              <h3 class="align-center"><a href="https://www.builtbygoat.com/technical/">About Site</a></h3>
-
-       </div>
-     </div>
-     
-       </div>
-       
-         <div class="row">
-         <div class="small-12 columns">
-              <div class="small-12 columns">
-              <h2>CATEGORIES</h2>
-             </div>
-             <div class="small-12 large-4 columns">
-             <p class="align-center"><img src="https://www.builtbygoat.com/images/terminal.svg" alt="Technology Tag Icon" width="64" height="64"></p>
-              <h3 class="align-center"><a href="https://www.builtbygoat.com/tag/technology/">Technology</a></h3>
-         
-             </div>
-             <div class="small-12 large-4 end columns">
-             <p class="align-center"><img src="https://www.builtbygoat.com/images/star-empty.svg" alt="General Tag Icon" width="64" height="64"></p>
-              <h3 class="align-center"><a href="https://www.builtbygoat.com/tag/general/">General</a></h3>
-
-     </div>
-     </div>
-     </div>
-       <div class="row">
-      <div class="small-12 columns">
-         <div class="small-12 columns">
-           <h2>OTHER</h2>
-                <div class="small-12 large-4 columns">
-                <p class="align-center"><img src="https://www.builtbygoat.com/images/map-marker.svg" alt="Home Page Icon" width="64" height="64"></p>
-                           <h3 class="align-center"><a href="{{@blog.url}}">Home Page</a></h3>
-           </div>
-           <div class="small-12 large-4 end columns">
-                 <p class="align-center"><img src="https://www.builtbygoat.com/images/map.svg" alt="Site Map Icon" width="64" height="64"></p>
-            <h3 class="align-center"><a href="https://www.builtbygoat.com/sitemap/">Site Map</a></h3>
-            </div>
-       </div>
-   </div>
-   </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h2 class="is-uppercase">Navigation</h2>
+        <h3><a href="https://www.builtbygoat.com/support/">Get Support</a></h3>  
+        <h3><a href="https://www.builtbygoat.com/resume/">My Resume</a></h3>
+        <h3><a href="https://www.builtbygoat.com/technical/">About Site</a></h3>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h2 class="is-uppercase">Categories</h2>
+        <h3><a href="https://www.builtbygoat.com/tag/technology/">Technology</a></h3>
+        <h3><a href="https://www.builtbygoat.com/tag/general/">General</a></h3>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <h2 class="is-uppercase">Other</h2>
+        <h3><a href="{{@blog.url}}">Home Page</a></h3>
+        <h3><a href="https://www.builtbygoat.com/sitemap/">Site Map</a></h3>
+      </div>
+    </div>
+  </div>
+</section>
