@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-clock" width="128" height="128" viewBox="0 0 128 128">
-  <g class="iconic-metadata">
-    <title>Clock</title>
-  </g>
-  <g class="iconic-clock-sm iconic-container iconic-sm" data-width="16" data-height="16" display="inline" transform="scale(8)">
-    <circle stroke="#090707" stroke-width="2" stroke-linecap="round" cx="8" cy="8" r="7" class="iconic-clock-body iconic-property-stroke" fill="none" />
-    <path stroke="#090707" stroke-width="2" stroke-linecap="square" class="iconic-clock-hand iconic-property-stroke" d="M8 5v3l2 1" fill="none" />
-  </g>
-</svg>
