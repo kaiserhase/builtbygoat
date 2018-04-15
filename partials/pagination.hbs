@@ -2,15 +2,17 @@
 <section class="section">
   <div class="container">
     <div class="columns is-uppercase has-text-left">
-      <div class="column is-one-quarter">
+      <div class="column">
+        <p class="has-text-centered">Page {{page}} Of {{pages}}</p>
+      </div>
+    </div>
+    <div class="columns is-mobile is-uppercase has-text-left">
+      <div class="column">
         {{#if prev}}<p><strong><a href="{{page_url prev}}">&larr; Newer Posts</a></strong></p>
           {{else}}<p><strong>&larr; Newer Posts</strong></p>
         {{/if}} 
       </div>
-      <div class="column is-one-half">
-        <p class="has-text-centered">Page {{page}} Of {{pages}}</p>
-      </div>
-      <div class="column is-one-quarter has-text-right">
+      <div class="column has-text-right">
         {{#if next}}<p><strong><a href="{{page_url next}}">Older Posts &rarr;</a></strong></p>
           {{else}}<p><strong>Older Posts &rarr;</strong></p>
         {{/if}}
