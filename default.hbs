@@ -4,7 +4,6 @@
     <!-- Base Header -->
     <title itemprop='name'>{{meta_title}}</title>
     <meta charset="utf-8">
-    <meta name="description" content="{{meta_description}}" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
     <meta name="handheldfriendly" content="true" />
     <link rel="stylesheet" href="/style.css">
@@ -23,18 +22,6 @@
     <meta property="fb:pages" content="773145382793846" />
     <meta name="google-site-verification" content="z-54bUTH4z5m0u9ExNnnQmgOgTWIVVwVA9zIXofoH8U" />
     <meta name="msvalidate.01" content="B619C91732C4C543921C2909F5BBD0CC" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@kaiserhase" />
-    <meta name="twitter:title" content="{{meta_title}}" />
-    <meta name="twitter:description" content="{{meta_description}}" />
-    <meta property="og:title" content="{{meta_title}}" />
-    <meta property="og:url" content="https://www.builtbygoat.com/" />
-    <meta property="og:site_name" content="builtby+goat" />
-    <meta property="og:type" content="blog" />
-    <meta property="og:description" content="{{meta_description}}" />
-    <meta itemprop="description" content="{{meta_description}}" />
-    <meta property="og:image" content="https://www.builtbygoat.com/images/logo-favicon270.png" />
-    <meta property="og:locale" content="en_US" />
     <meta name="apple-mobile-web-app-title" content="builtby+goat" />
     <meta name="application-name" content="builtby+goat" />
     <meta name="msapplication-config" content=“https://www.builtbygoat.com/images/browserconfig.xml” />
@@ -48,7 +35,7 @@
         "@context": "https://www.schema.org",
         "@type": "person",
         "name": "Brett Mahoney",
-        "jobTitle": "Tech Support Specialist",
+        "jobTitle": "Support Engineer",
         "url": "https://www.builtbygoat.com",
         "sameAs": [
           "http://www.twtter.com/kaiserhasee",
@@ -75,13 +62,7 @@
         a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67402827-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-67402827-1');
-    </script>
+    {{ghost_head}}
   </head>
   <body>
 
@@ -92,13 +73,14 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            <h2 class="has-text-centered">If The Shoe Fits... </h2>
+            <h2 class="has-text-centered">Let's speak.</h2>
             <p class="has-text-centered"><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfTuXMEgg-IJcbv6TJIR76r0IAi3VHbfjIJTEda4gzfMgOt_Q/viewform" target="_blank" rel="noopener">Contact Me</a></p>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer -->
+    {{ghost_footer}}
     <footer class="footer is-uppercase">
       <div class="container">
         <div class="columns">

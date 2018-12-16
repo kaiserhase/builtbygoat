@@ -22,7 +22,7 @@
     </div>
     <div class="columns article-body">
       <div class="column is-uppercase">
-		  	<p><img src="https://www.builtbygoat.com/images/author.svg" height="16" width="16" alt="Posted By"> Author <strong>{{author}}</strong></p>			
+		  	<p><img src="https://www.builtbygoat.com/images/author.svg" height="16" width="16" alt="Posted By"> Author <strong>{{primary_author.name}}</strong></p>			
         <p><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time <strong>{{reading_time}}</strong></p>
       </div>
     </div>
@@ -37,24 +37,6 @@
         <p><img src="https://www.builtbygoat.com/images/tags.svg" height="16" width="16" alt="Posted Tagged Under"> Tags <strong>{{#if tags}}{{tags}}{{else}}Uncategorized{{/if}}</strong></p>  
 			</div>
     </div>
-		<div class="columns article-footer">
-      <div class="column is-uppercase">
-        <div id="disqus_thread"></div>
-			  <script>
-					var disqus_config = function () {
-						this.page.url = "{{url absolute='true'}}";
-						this.page.identifier = "ghost-{{comment_id}}";
-					};
-					(function() { 
-						var d = document, s = d.createElement('script');
-						s.src = 'https://builtbygoat.disqus.com/embed.js';
-						s.setAttribute('data-timestamp', +new Date());
-						(d.head || d.body).appendChild(s);
-					})();
-				</script>
-			</div>
-    </div>
-  </div>
 </section>
 <script type="application/ld+json">
 {
@@ -77,7 +59,7 @@
   "dateModified": "{{date modified_at format="YYYY-MM-DDThh:mm:ss+05:00"}}",
   "author": {
     "@type": "Person",
-    "name": "{{author.name}}"
+    "name": "{{primary_author.name}}"
   },
    "publisher": {
     "@type": "Organization",
