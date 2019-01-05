@@ -91,12 +91,17 @@
         <p><amp-img src="https://www.builtbygoat.com/images/share.svg" height="16" width="16" alt="Share This Post"></amp-img> Share <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/twitter.svg" height="24" width="24" alt="Share on Twitter"></amp-img></a> <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/facebook.svg" height="24" width="24" alt="Share on Facebook"></amp-img></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}" target="_blank" rel="noopener"><amp-img src="https://www.builtbygoat.com/images/linkedin.svg" height="24" width="24" alt="Share on LinkedIn"></amp-img></a></p>
         <p><amp-img src="https://www.builtbygoat.com/images/tags.svg" height="16" width="16" alt="Posted Tagged Under"></amp-img> Tags <strong>{{#if tags}}{{tags}}{{else}}Uncategorized{{/if}}</strong></p>  
 			</div>
-      <amp-iframe width=600 height=140
-        layout="responsive"
-        sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-        resizable
-        src="https://example.com/amp#hash">
-      </amp-iframe>
+    </div>
+    <div class="columns article-footer">
+      <div class="column is-uppercase">
+        <amp-iframe width=600 height=140
+          layout="responsive"
+          sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+          resizable
+          src="https://cdn.jsdelivr.net/gh/kaiserhase/builtbygoat@master/amp.html">
+        </amp-iframe>
+          <div overflow tabindex=0 role=button aria-label="">Read more comments...</div>
+      </div>
     </div>
 </section>
 <script type="application/ld+json">
