@@ -1,0 +1,20 @@
+{
+  "name": "Greater Bostons Support Engineer | Brett Mahoney",
+  "short_name": "builtby+goat",
+  "start_url": "/",
+  "theme_color": "#0061c4",
+  "background_color": "#090707",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/logo-favicon180.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logo-favicon270.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -8,14 +8,6 @@
     <meta name="handheldfriendly" content="true" />
     <link rel="stylesheet" href="/style.css">
     <meta name="robots" content="index, follow" />
-    <!-- AMP or Not AMP -->
-    {{#is "post"}}
-      <link rel="amphtml" href="{{url absolute="true"}}amp/" />
-      <link itemprop="url" href="{{url absolute="true"}}" />
-    {{else}}
-      <link rel="canonical" href="{{url absolute="true"}}" />
-      <link itemprop="url" href="{{url absolute="true"}}" />
-    {{/is}} 
     <!-- Basic SEO -->
     <meta name="author" content="Brett Mahoney">
     <meta property="op:markup_version" content="v1.0"> 
@@ -30,6 +22,7 @@
     <link rel="icon" type="image/png" href="https://www.builtbygoat.com/images/logo-favicon32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="https://www.builtbygoat.com/images/logo-favicon16.png" sizes="16x16" />
     <link rel="icon" type="image/x-icon" href="https://www.builtbygoat.com/images/favicon.ico" />
+    <link rel="manifest" href="/manifest.json">
     <script type='application/ld+json'> 
       {
         "@context": "https://www.schema.org",
@@ -51,6 +44,13 @@
         "logo": "="https://www.builtbygoat.com/images/logo.png"
       }
     </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
     <!-- Analytics -->
     <script>
       (function(h,o,t,j,a,r){
@@ -61,6 +61,18 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>   
+    <script>
+      var disqus_config = function () {
+        this.page.url = "{{url absolute="true"}}";  
+        this.page.identifier = "ghost-{{comment_id}}"
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://builtbygoat.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
     </script>
     {{ghost_head}}
   </head>
@@ -73,8 +85,7 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            <h2 class="has-text-centered">Let's speak.</h2>
-            <p class="has-text-centered"><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfTuXMEgg-IJcbv6TJIR76r0IAi3VHbfjIJTEda4gzfMgOt_Q/viewform" target="_blank" rel="noopener">Contact Me</a></p>
+            <h2 class="has-text-centered"><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfTuXMEgg-IJcbv6TJIR76r0IAi3VHbfjIJTEda4gzfMgOt_Q/viewform" target="_blank" rel="noopener">Let's speak.</a></h2>
           </div>
         </div>
       </div>
