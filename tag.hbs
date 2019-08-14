@@ -1,25 +1,17 @@
 {{!< default}}
 <!-- Tag -->
-{{#tag}}
-<section class="section hero">
-  <div class="container">
-    <div class="columns">
-      <div class="column has-text-centered is-uppercase">
+  {{#tag}}
+    <div class="row">
+      <div class="columns">
         <h1>{{name}}</h1>
         <p>{{#if description}}{{description}}{{else}}{{../pagination.total}} similar posts{{/if}}</p>
       </div>
     </div>
-  </div>
-</section>
-{{/tag}}
-{{> "loop"}}
-<!-- RSS -->
-<section class="section">
-  <div class="container">
+  {{/tag}}
+  {{> "loop"}}
+  <!-- RSS --a>
+  <div class="row">
     <div class="columns">
-      <div class="column">
-        <p class="has-text-centered"><a href="{{@blog.url}}/tag/{{#tag}}{{name}}{{/tag}}/rss/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/rss.svg" height="24" width="24" alt="RSS Feed"></a></p>
-      </div>
+      <p class="text-center"><a href="{{@blog.url}}/tag/{{#tag}}{{name}}{{/tag}}/rss/" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/assets/images/rss.svg" height="24" width="24" alt="RSS Feed"></a></p>    
     </div>
   </div>
-</section>

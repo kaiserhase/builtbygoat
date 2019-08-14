@@ -1,82 +1,79 @@
 {{!< default}}
 <!-- Post -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-1003928121460359",
-    enable_page_level_ads: true
-  });
-</script>
-{{#post}}    
-<section class="section">
-  <div class="container">
-    <div class="columns article-banner">
-      <div class="column">
-        <p>{{#if feature_image}}<img src="{{feature_image}}" height="1333" width="2000" alt="Decorative Article Header Image">{{/if}}</p>
-      </div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-1003928121460359",
+      enable_page_level_ads: true
+    });
+  </script>
+  {{#post}}
+  <div class="row">
+    <div class="columns">
+      <p>{{#if feature_image}}<img src="{{feature_image}}" height="1333" width="2000" alt="Decorative Article Header Image">{{/if}}</p>
     </div>
-    <div class="columns article-title">
-      <div class="column">
-        <h1 class="has-text-centered is-uppercase"><a href="{{url}}">{{title}}</a></h1>
-      </div>
+  </div>
+  <div class="row">  
+    <div class="columns">
+      <h1 class="text-center"><a href="{{url}}">{{title}}</a></h1>
     </div>
-    <div class="columns article-body">
-      <div class="column is-uppercase">
-		  	<p><img src="https://www.builtbygoat.com/images/author.svg" height="16" width="16" alt="Posted By"> Author <strong>{{primary_author.name}}</strong></p>			
-        <p><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time <strong>{{reading_time}}</strong></p>
-      </div>
+  </div>
+  <div class="row"> 
+    <div class="columns">
+      <p><img src="https://www.builtbygoat.com/assets/images/author.svg" height="16" width="16" alt="Posted By"> Author <strong>{{primary_author.name}}</strong></p>			
+      <p><img src="https://www.builtbygoat.com/assets/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time <strong>{{reading_time}}</strong></p>
     </div>
-		<div class="columns article-body">
-      <div class="column">
-		    <p>{{content}}</p>
-      </div>
+  </div>
+  <div class="row"> 
+    <div class="columns">
+      {{content}}
     </div>
-    <div class="columns article-footer">
-      <div class="column is-uppercase">
-        <p><img src="https://www.builtbygoat.com/images/share.svg" height="16" width="16" alt="Share This Post"> Share <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/twitter.svg" height="24" width="24" alt="Share on Twitter"></a> <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/facebook.svg" height="24" width="24" alt="Share on Facebook"></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/images/linkedin.svg" height="24" width="24" alt="Share on LinkedIn"></a></p>
-        <p><img src="https://www.builtbygoat.com/images/tags.svg" height="16" width="16" alt="Posted Tagged Under"> Tags <strong>{{#if tags}}{{tags}}{{else}}Uncategorized{{/if}}</strong></p>  
-			</div>
+  </div>
+  <div class="row"> 
+    <div class="columns">
+          <p><img src="https://www.builtbygoat.com/assets/images/share.svg" height="16" width="16" alt="Share This Post"> Share <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/assets/images/twitter.svg" height="24" width="24" alt="Share on Twitter"></a> <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/assets/images/facebook.svg" height="24" width="24" alt="Share on Facebook"></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}" target="_blank" rel="noopener"><img src="https://www.builtbygoat.com/assets/images/linkedin.svg" height="24" width="24" alt="Share on LinkedIn"></a></p>
+          <p><img src="https://www.builtbygoat.com/assets/images/tags.svg" height="16" width="16" alt="Posted Tagged Under"> Tags <strong>{{#if tags}}{{tags}}{{else}}Uncategorized{{/if}}</strong></p>  
     </div>
-    <div class="columns article-footer">
-      <div class="column is-uppercase">
-        <div id="disqus_thread"></div>
-      </div>
+  </div>
+  <div class="row"> 
+    <div class="columns">
+      <div id="disqus_thread"></div>
     </div>
-</section>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://google.com/article"
-  },
-  "headline": "{{meta_title}}",
-  {{#if feature_image}}
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{img_url feature_image absolute="true"}}",
-    "height": 768,
-    "width": 1024
-  },
-  {{/if}}
-  "datePublished": "{{date published_at format="YYYY-MM-DDThh:mm:ss+05:00"}}",
-  "dateModified": "{{date modified_at format="YYYY-MM-DDThh:mm:ss+05:00"}}",
-  "author": {
-    "@type": "Person",
-    "name": "{{primary_author.name}}"
-  },
-   "publisher": {
-    "@type": "Organization",
-    "name": "builtby+goat",
-      "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.builtbygoat.com/images/logo.png",
-      "width": 197,
-      "height": 60
-      }
+  </div>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://google.com/article"
     },
-  "description": "{{meta_description}}"
-}
-</script>
-{{/post}}
+    "headline": "{{meta_title}}",
+    {{#if feature_image}}
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{img_url feature_image absolute="true"}}",
+      "height": 768,
+      "width": 1024
+    },
+    {{/if}}
+    "datePublished": "{{date published_at format="YYYY-MM-DDThh:mm:ss+05:00"}}",
+    "dateModified": "{{date modified_at format="YYYY-MM-DDThh:mm:ss+05:00"}}",
+    "author": {
+      "@type": "Person",
+      "name": "{{primary_author.name}}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "builtby+goat",
+        "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.builtbygoat.com/assets/images/logo.png",
+        "width": 197,
+        "height": 60
+        }
+      },
+    "description": "{{meta_description}}"
+  }
+  </script>
+  {{/post}}

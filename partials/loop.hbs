@@ -1,28 +1,26 @@
-<!-- Post Loop -->
+<!-- Loop -->
 {{#foreach posts limit="{{@config.posts_per_page}}"}}
-<section class="section article-section">
-  <div class="container">
-    <div class="columns article-banner">
-      <div class="column">
-        <p>{{#if feature_image}}<img src="{{feature_image}}" height="1333" width="2000" alt="Decorative Article Header Image">{{/if}}</p>
-      </div>
-    </div>
-    <div class="columns article-title">
-      <div class="column">
-        <h2 class="has-text-centered is-uppercase"><a href="{{url}}">{{title}}</a></h2>
-      </div>
-    </div>
-    <div class="columns article-body">
-      <div class="column">
-        <p>{{excerpt}}</p>
-      </div>
-    </div>
-    <div class="columns article-footer">
-      <div class="column">
-        <p class="is-uppercase"><img src="https://www.builtbygoat.com/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time <strong>{{reading_time}}</strong></p>   
-      </div>
+<div class="loop">
+  <div class="row">
+    <div class="columns">
+      <p>{{#if feature_image}}<img src="{{feature_image}}" height="1333" width="2000" alt="Decorative Article Header Image">{{/if}}</p>
     </div>
   </div>
-</section>
+  <div class="row"> 
+    <div class="columns">
+      <h2><a href="{{url}}">{{title}}</a></h2>
+    </div>
+  </div>
+  <div class="row"> 
+    <div class="columns">
+      <p>{{excerpt}}</p>
+    </div>
+   </div>
+  <div class="row"> 
+    <div class="columns">
+      <p><img src="https://www.builtbygoat.com/assets/images/timer.svg" height="16" width="16" alt="Reading Time"> Reading Time <strong>{{reading_time}}</strong></p>   
+    </div>
+  </div>
+</div>
 {{/foreach}}
 {{pagination}}

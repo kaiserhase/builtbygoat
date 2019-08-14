@@ -1,20 +1,16 @@
-<!-- Pagination -->
-<section class="section">
-  <div class="container">
-    <div class="columns is-mobile is-uppercase has-text-left">
-      <div class="column">
-        {{#if prev}}<p><strong><a href="{{page_url prev}}">&larr; Newer</a></strong></p>
-          {{else}}<p><strong>&larr; Newer</strong></p>
-        {{/if}} 
-      </div>
-      <div class="column">
-        <p class="has-text-centered">Page {{page}} Of {{pages}}</p>
-      </div>
-      <div class="column has-text-right">
-        {{#if next}}<p><strong><a href="{{page_url next}}">Older &rarr;</a></strong></p>
-          {{else}}<p><strong>Older &rarr;</strong></p>
-        {{/if}}
-      </div>
+  <!-- Pagination -->
+  <div class="row pagination">
+    <div class="columns text-left">
+      {{#if prev}}<p><strong><a href="{{page_url prev}}">&larr; Newer</a></strong></p>
+        {{else}}<p><strong>&larr; Newer</strong></p>
+      {{/if}} 
+    </div>
+    <div class="columns text-center">
+      <p>Page {{page}} Of {{pages}}</p>
+    </div>
+    <div class="columns text-right">
+      {{#if next}}<p><strong><a href="{{page_url next}}">Older &rarr;</a></strong></p>
+        {{else}}<p><strong>Older &rarr;</strong></p>
+      {{/if}}
     </div>
   </div>
-</section>

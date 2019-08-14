@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-share" width="128" height="128" viewBox="0 0 128 128">
+  <g class="iconic-metadata">
+    <title>Share</title>
+  </g>
+  <g class="iconic-share-sm iconic-container iconic-sm" data-width="16" data-height="13" display="inline" transform="scale(8) translate(0 1)">
+    <path fill="#090707" d="M16 5.667l-5-5.667v3h-1c-8 0-10 4.109-10 10 1.031-3.969 4-5 8-5 1.481 0 2.433 0 3 0v3l5-5.333z" class="iconic-property-fill" />
+  </g>
+</svg>

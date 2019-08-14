@@ -7,12 +7,12 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/images/logo-favicon180.png",
+      "src": "/assets/images/logo-favicon180.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/logo-favicon270.png",
+      "src": "/assets/images/logo-favicon270.png",
       "type": "image/png",
       "sizes": "512x512"
     }
